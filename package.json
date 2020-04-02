@@ -1,0 +1,16 @@
+{
+  "name": "lanq-back",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "author": "raymag",
+  "license": " ",
+  "private": true,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "node": "^13.12.0",
+    "socketio": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
