@@ -48,6 +48,7 @@ io.on("connection", (socket) => {
 				players: players,
 				playerId: socket.id,
 				thumbnail: questions[currentIndex].thumbnail,
+                lang: currentLang
 			});
 		} else {
 			io.emit("message", {
@@ -64,6 +65,7 @@ io.on("connection", (socket) => {
 			players: players,
 			playerId: socket.id,
 			thumbnail: questions[currentIndex].thumbnail,
+            lang: currentLang
 		});
 		console.log(`Player ${socket.id} left`);
 	});
