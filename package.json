@@ -5,6 +5,10 @@
   "author": "raymag",
   "license": " ",
   "private": true,
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "node": "^13.12.0",
