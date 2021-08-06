@@ -1,18 +1,18 @@
 [
     {
-        "thumbnail": "lanq/assets/EnglishQA/apple.png",
+        "thumbnail": "assets/EnglishQA/apple.png",
         "answer": "apple"       
     },
     {
-        "thumbnail": "lanq/assets/EnglishQA/pencil.png",
+        "thumbnail": "assets/EnglishQA/pencil.png",
         "answer": "pencil"       
     },
     {
-        "thumbnail": "lanq/assets/EnglishQA/running.png",
+        "thumbnail": "assets/EnglishQA/running.png",
         "answer": "running"       
     },
     {
-        "thumbnail": "lanq/assets/EnglishQA/blood-drop.png",
+        "thumbnail": "assets/EnglishQA/blood-drop.png",
         "answer": "blood"       
     }
 ]
