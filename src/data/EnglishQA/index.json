@@ -1,242 +1,234 @@
 [
-    {
-       "thumbnail":"assets/EnglishQA/apple.png",
-       "answer":{
-          "english":"apple",
-          "spanish":"manzana",
-          "portuguese":"maca"
-       }
-    },
-    {
-       "thumbnail":"assets/EnglishQA/orange.png",
-       "answer":{
-          "english":"orange",
-          "spanish":"naranja",
-          "portuguese":"laranja"
-       }
-    },
-    {
-       "thumbnail":"assets/EnglishQA/heart.png",
-       "answer":{
-          "english":"love",
-          "spanish":"amor",
-          "portuguese":"amor"
-       }
-    },
-    {
-       "thumbnail":"assets/EnglishQA/pillow.png",
-       "answer":{
-          "english":"pillow",
-          "spanish":"amortiguar",
-          "portuguese":"almofada"
-       }
-    },
-    {
-       "thumbnail":"assets/EnglishQA/soccer-ball-variant.png",
-       "answer":{
-          "english":"ball",
-          "spanish":"pelota",
-          "portuguese":"bola"
-       }
-    },
-    {
-       "thumbnail":"assets/EnglishQA/notebook.png",
-       "answer":{
-          "english":"notebook",
-          "spanish":"diario",
-          "portuguese":"caderno"
-       }
-    },
-    {
-       "thumbnail":"assets/EnglishQA/glass-of-water.png",
-       "answer":{
-          "english":"glass",
-          "spanish":"vidrio",
-          "portuguese":"copo"
-       }
-    },
-    {
-       "thumbnail":"assets/EnglishQA/smartphone.png",
-       "answer":{
-          "english":"phone",
-          "spanish":"teléfono móvil",
-          "portuguese":"celular"
-       }
-    },
-    {
-       "thumbnail":"assets/EnglishQA/game-controller.png",
-       "answer":{
-          "english":"game",
-          "spanish":"juego",
-          "portuguese":"jogo"
-       }
-    },
-    {
-       "thumbnail":"assets/EnglishQA/pencil.png",
-       "answer":{
-          "english":"pencil",
-          "spanish":"lapiz",
-          "portuguese":"lapis"
-       }
-    },
-    {
-       "thumbnail":"assets/EnglishQA/book.png",
-       "answer":{
-          "english":"book",
-          "spanish":"libro",
-          "portuguese":"livro"
-       }
-    },
-    {
-       "thumbnail":"assets/EnglishQA/backpack.png",
-       "answer":{
-          "englis":"backpack",
-          "spanish":"mochila",
-          "portuguese":"mochila"
-       }
-    },
-    {
-       "thumbnail":"assets/EnglishQA/goggles.png",
-       "answer":{
-          "english":"glasses",
-          "spanish":"vasos",
-          "portuguese":"oculos"
-       }
-    },
-    {
-       "thumbnail":"assets/EnglishQA/paper.jpg",
-       "answer":{
-          "english":"paper",
-          "spanish":"papel",
-          "portuguese":"papel"
-       }
-    },
-    {
-       "thumbnail":"assets/EnglishQA/ferramenta-de-regua-quadrada.png",
-       "answer":{
-          "english":"ruler",
-          "spanish":"regla",
-          "portuguese":"regua"
-       }
-    },
-    {
-       "thumbnail":"assets/EnglishQA/violao.png",
-       "answer":{
-          "english":"guitar",
-          "spanish":"guitarra",
-          "portuguese":"violao"
-       }
-    },
-    {
-       "thumbnail":"assets/EnglishQA/atividade",
-       "answer":{
-          "english":"activity",
-          "spanish":"actividad",
-          "portuguese":"atividade"
-       }
-    },
-    {
-       "thumbnail":"assets/EnglishQA/medico",
-       "answer":{
-          "english":"doctor",
-          "spanish":"medico",
-          "portuguese":"medico"
-       }
-    },
-    {
-       "thumbnail":"assets/EnglishQA/Abacate ",
-       "answer":{
-          "english":"avocado",
-          "spanish":"palta",
-          "portuguese":"abacate"
-       }
-    },
-    {
-       "thumbnail":"assets/EnglishQA/cacau",
-       "answer":{
-          "english":"cocoa",
-          "spanish":"cacao",
-          "portuguese":"cacau"
-       }
-    },
-    {
-       "thumbnail":"assets/EnglishQA/goiaba.png",
-       "answer":{
-          "english":"guava",
-          "spanish":"guayaba",
-          "portuguese":"goiaba"
-       }
-    },
-    {
-       "thumbnail":"assets/EnglishQA/cachorro.png",
-       "answer":{
-          "english":"dog",
-          "spanish":"perro",
-          "portuguese":"cachorro"
-       }
-    },
-    {
-       "thumbnail":"assets/EnglishQA/gato-manx.png",
-       "answer":{
-          "english":"cat",
-          "spanish":"gato",
-          "portuguese":"gato"
-       }
-    },
-    {
-       "thumbnail":"assets/EnglishQA/abelhas.png",
-       "answer":{
-          "english":"bee",
-          "spanish":"abeja",
-          "portuguese":"abelha"
-       }
-    },
-    {
-       "thumbnail":"assets/EnglishQA/elephant.jpg",
-       "answer":{
-          "english":"elephant",
-          "spanish":"elefante",
-          "portuguese":"elefante"
-       }
-    },
-    {
-       "thumbnail":"assets/EnglishQA/spoon.jpg",
-       "answer":{
-          "english":"spoon",
-          "spanish":"cuchara",
-          "portuguese":"colher"
-       }
-    },
-    {
-       "thumbnail":"assets/EnglishQA/supermarket.jpg",
-       "answer":{
-          "english":"supermarket",
-          "spanish":"supermercado",
-          "portuguese":"supermercado"
-       }
-    },
-    {
-       "thumbnail":"assets/EnglishQA/hospital.jpg",
-       "answer":{
-          "english":"hospital",
-          "spanish":"enfermeria",
-          "portuguese":"hospital"
-       }
-    },
-    {
-       "thumbnail":"assets/EnglishQA/Loja.png",
-       "answer":{
-          "english":"store",
-          "spanish":"tienda",
-          "portuguese":"loja"
-       }
-    },
-    {
-       "thumbnail":"assets/EnglishQA/casa.png",
-       "answer":{
-          "english":"home",
-          "spanish":"casa",
-          "portuguese":"casa"
-       }
-    }
- ]
+	{
+		"thumbnail": "assets/EnglishQA/apple.png",
+		"answer": {
+			"english": "apple",
+			"spanish": "manzana",
+			"portuguese": "maca"
+		}
+	},
+	{
+		"thumbnail": "assets/EnglishQA/orange.png",
+		"answer": {
+			"english": "orange",
+			"spanish": "naranja",
+			"portuguese": "laranja"
+		}
+	},
+	{
+		"thumbnail": "assets/EnglishQA/heart.png",
+		"answer": {
+			"english": "love",
+			"spanish": "amor",
+			"portuguese": "amor"
+		}
+	},
+	{
+		"thumbnail": "assets/EnglishQA/pillow.png",
+		"answer": {
+			"english": "pillow",
+			"spanish": "amortiguar",
+			"portuguese": "almofada"
+		}
+	},
+	{
+		"thumbnail": "assets/EnglishQA/soccer-ball-variant.png",
+		"answer": {
+			"english": "ball",
+			"spanish": "pelota",
+			"portuguese": "bola"
+		}
+	},
+	{
+		"thumbnail": "assets/EnglishQA/notebook.png",
+		"answer": {
+			"english": "notebook",
+			"spanish": "diario",
+			"portuguese": "caderno"
+		}
+	},
+	{
+		"thumbnail": "assets/EnglishQA/glass-of-water.png",
+		"answer": {
+			"english": "glass",
+			"spanish": "vidrio",
+			"portuguese": "copo"
+		}
+	},
+	{
+		"thumbnail": "assets/EnglishQA/smartphone.png",
+		"answer": {
+			"english": "phone",
+			"spanish": "teléfono móvil",
+			"portuguese": "celular"
+		}
+	},
+	{
+		"thumbnail": "assets/EnglishQA/game-controller.png",
+		"answer": {
+			"english": "game",
+			"spanish": "juego",
+			"portuguese": "jogo"
+		}
+	},
+	{
+		"thumbnail": "assets/EnglishQA/pencil.png",
+		"answer": {
+			"english": "pencil",
+			"spanish": "lapiz",
+			"portuguese": "lapis"
+		}
+	},
+	{
+		"thumbnail": "assets/EnglishQA/book.png",
+		"answer": {
+			"english": "book",
+			"spanish": "libro",
+			"portuguese": "livro"
+		}
+	},
+	{
+		"thumbnail": "assets/EnglishQA/backpack.png",
+		"answer": {
+			"englis": "backpack",
+			"spanish": "mochila",
+			"portuguese": "mochila"
+		}
+	},
+	{
+		"thumbnail": "assets/EnglishQA/goggles.png",
+		"answer": {
+			"english": "glasses",
+			"spanish": "vasos",
+			"portuguese": "oculos"
+		}
+	},
+	{
+		"thumbnail": "assets/EnglishQA/paper.jpg",
+		"answer": {
+			"english": "paper",
+			"spanish": "papel",
+			"portuguese": "papel"
+		}
+	},
+	{
+		"thumbnail": "assets/EnglishQA/ferramenta-de-regua-quadrada.png",
+		"answer": {
+			"english": "ruler",
+			"spanish": "regla",
+			"portuguese": "regua"
+		}
+	},
+	{
+		"thumbnail": "assets/EnglishQA/violao.png",
+		"answer": {
+			"english": "guitar",
+			"spanish": "guitarra",
+			"portuguese": "violao"
+		}
+	},
+	{
+		"thumbnail": "assets/EnglishQA/medico.png",
+		"answer": {
+			"english": "doctor",
+			"spanish": "medico",
+			"portuguese": "medico"
+		}
+	},
+	{
+		"thumbnail": "assets/EnglishQA/fatiador-de-abacate.png",
+		"answer": {
+			"english": "avocado",
+			"spanish": "palta",
+			"portuguese": "abacate"
+		}
+	},
+	{
+		"thumbnail": "assets/EnglishQA/cacau.png",
+		"answer": {
+			"english": "cocoa",
+			"spanish": "cacao",
+			"portuguese": "cacau"
+		}
+	},
+	{
+		"thumbnail": "assets/EnglishQA/goiaba.png",
+		"answer": {
+			"english": "guava",
+			"spanish": "guayaba",
+			"portuguese": "goiaba"
+		}
+	},
+	{
+		"thumbnail": "assets/EnglishQA/cachorro.png",
+		"answer": {
+			"english": "dog",
+			"spanish": "perro",
+			"portuguese": "cachorro"
+		}
+	},
+	{
+		"thumbnail": "assets/EnglishQA/gato-manx.png",
+		"answer": {
+			"english": "cat",
+			"spanish": "gato",
+			"portuguese": "gato"
+		}
+	},
+	{
+		"thumbnail": "assets/EnglishQA/abelhas.png",
+		"answer": {
+			"english": "bee",
+			"spanish": "abeja",
+			"portuguese": "abelha"
+		}
+	},
+	{
+		"thumbnail": "assets/EnglishQA/elephant.jpg",
+		"answer": {
+			"english": "elephant",
+			"spanish": "elefante",
+			"portuguese": "elefante"
+		}
+	},
+	{
+		"thumbnail": "assets/EnglishQA/spoon.jpg",
+		"answer": {
+			"english": "spoon",
+			"spanish": "cuchara",
+			"portuguese": "colher"
+		}
+	},
+	{
+		"thumbnail": "assets/EnglishQA/supermarket.jpg",
+		"answer": {
+			"english": "supermarket",
+			"spanish": "supermercado",
+			"portuguese": "supermercado"
+		}
+	},
+	{
+		"thumbnail": "assets/EnglishQA/hospital.jpg",
+		"answer": {
+			"english": "hospital",
+			"spanish": "enfermeria",
+			"portuguese": "hospital"
+		}
+	},
+	{
+		"thumbnail": "assets/EnglishQA/Loja.png",
+		"answer": {
+			"english": "store",
+			"spanish": "tienda",
+			"portuguese": "loja"
+		}
+	},
+	{
+		"thumbnail": "assets/EnglishQA/casa.png",
+		"answer": {
+			"english": "home",
+			"spanish": "casa",
+			"portuguese": "casa"
+		}
+	}
+]
