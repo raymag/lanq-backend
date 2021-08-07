@@ -90,7 +90,7 @@
 	{
 		"thumbnail": "assets/EnglishQA/backpack.png",
 		"answer": {
-			"englis": "backpack",
+			"english": "backpack",
 			"spanish": "mochila",
 			"portuguese": "mochila"
 		}
