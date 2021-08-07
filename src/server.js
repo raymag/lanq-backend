@@ -20,7 +20,8 @@ let currentLang = langs[Math.floor(Math.random() * langs.length)];
 
 io.on("connection", (socket) => {
 	const player = {
-		username: "Player",
+		username: `${generateUID()}`,
+		id: socket.id,
 		score: 0,
 	};
 	players[socket.id] = player;
@@ -28,27 +29,37 @@ io.on("connection", (socket) => {
 		players: players,
 		playerId: socket.id,
 		thumbnail: questions[currentIndex].thumbnail,
-        lang: currentLang
+		lang: currentLang,
 	};
 	console.log(`Player ${socket.id} joined`);
 	socket.emit("start", game);
+	socket.broadcast.emit("playerConnect", {
+		players: players,
+	});
 
 	socket.on("message", (data) => {
 		console.log(`Player ${socket.id} sent '${data.text}'`);
-		if (data.text.toLowerCase() === questions[currentIndex].answer[currentLang]) {
+		if (
+			data.text.toLowerCase() === questions[currentIndex].answer[currentLang]
+		) {
+			console.log(`${socket.id} is right`);
 			players[socket.id].score++;
 			currentIndex = Math.floor(Math.random() * availableIndexes.length);
-            currentLang = langs[Math.floor(Math.random() * langs.length)];
+			currentLang = langs[Math.floor(Math.random() * langs.length)];
+
+			console.log(`Message from ${socket.id}`);
 			io.emit("message", {
 				text: data.text,
 				author: players[socket.id].username,
 				isCorrect: true,
 			});
+
+			console.log(`Game update`);
 			io.emit("update", {
 				players: players,
 				playerId: socket.id,
 				thumbnail: questions[currentIndex].thumbnail,
-                lang: currentLang
+				lang: currentLang,
 			});
 		} else {
 			io.emit("message", {
@@ -65,11 +76,19 @@ io.on("connection", (socket) => {
 			players: players,
 			playerId: socket.id,
 			thumbnail: questions[currentIndex].thumbnail,
-            lang: currentLang
+			lang: currentLang,
 		});
 		console.log(`Player ${socket.id} left`);
 	});
 });
+
+function generateUID() {
+    var firstPart = (Math.random() * 46656) | 0;
+    var secondPart = (Math.random() * 46656) | 0;
+    firstPart = ("000" + firstPart.toString(36)).slice(-3);
+    secondPart = ("000" + secondPart.toString(36)).slice(-3);
+    return firstPart + secondPart;
+}
 
 const PORT = process.env.PORT || 3001;
 http.listen(PORT, () => {
